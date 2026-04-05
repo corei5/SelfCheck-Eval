@@ -15,16 +15,16 @@ To get started, clone the repository and install the dependencies:
 ```
 git clone https://github.com/DIYANAPV/SelfCheck-Eval.git
 
-cd SelfCheck-Eval
+cd selfcheckagent
 
 !pip install -r requirements.txt
 ```
 
 
 ```plaintext
-SelfCheck-Eval/
+selfcheckagent/
 │
-├── SelfCheck-Eval/               
+├── selfcheckagent/               
 │   ├── __init__.py                # Initialize the package
 |   ├── symbolic_agent.py
 |   ├── specialized_agent.py
