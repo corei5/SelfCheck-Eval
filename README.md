@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![OpenAI API](https://img.shields.io/badge/OpenAI-GPT--4-blue)](https://platform.openai.com/)
 
-SelfCheckAgent is a tool to detect hallucination of LLM outputs with zero external resource, by leveraging consistency based approach.
+SelfCheck-Eval is a tool to detect hallucination of LLM outputs with zero external resource, by leveraging consistency based approach.
 
 
 
@@ -13,18 +13,18 @@ SelfCheckAgent is a tool to detect hallucination of LLM outputs with zero extern
 
 To get started, clone the repository and install the dependencies:
 ```
-git clone https://github.com/DIYANAPV/SelfCheckAgent.git
+git clone https://github.com/DIYANAPV/SelfCheck-Eval.git
 
-cd SelfCheckAgent
+cd SelfCheck-Eval
 
 !pip install -r requirements.txt
 ```
 
 
 ```plaintext
-SelfCheckAgent/
+SelfCheck-Eval/
 │
-├── selfcheckagent/               
+├── SelfCheck-Eval/               
 │   ├── __init__.py                # Initialize the package
 |   ├── symbolic_agent.py
 |   ├── specialized_agent.py
